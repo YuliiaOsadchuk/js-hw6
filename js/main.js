@@ -32,7 +32,7 @@ const getAverage = (numbers) => {
     const sum = numbers.reduce((total, number) => {
         return total += number;
     }, 0)
-    return (sum / numbers.length);
+    return (sum / numbers.length).toFixed(2);
 }
 
 const getStudent = (studentName) => {
